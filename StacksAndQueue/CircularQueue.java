@@ -44,3 +44,4 @@ public class CircularQueue {
         return size;
     }
 }
+// Added dynamic array resizing logic
