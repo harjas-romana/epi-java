@@ -19,7 +19,6 @@ public class BinaryTreeDepthOrder {
             int levelSize = queue.size();
             List<Integer> currentLevel = new ArrayList<>();
 
-
             for(int i = 0; i < levelSize; i++) {
                 BinaryTreeNode<Integer> curr = queue.poll();
                 currentLevel.add(curr.data);
@@ -32,3 +31,4 @@ public class BinaryTreeDepthOrder {
         return result;
     }
 }
+// Time Complexity: O(N), Space Complexity: O(M) where M is max width
