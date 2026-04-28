@@ -24,6 +24,8 @@ public class SymmetricTree {
         }
 
         return left.data.equals(right.data) && checkSymmetric(left.right,right.left) && checkSymmetric(left.left, right.right);
-        
+
     }
 }
+// Time complexity is O(N)
+// Space complexity is O(H)
