@@ -4,11 +4,11 @@ import BinaryTrees.BinaryTreeBootCamp.BinaryTreeNode;
 
 public class isBalanced {
 
-    public static boolean isBalancedTree(BinaryTreeNode root) {
+    public static boolean isBalancedTree(BinaryTreeNode<Integer> root) {
         return checkHeight(root) != 1;
     }
 
-    public static int checkHeight(BinaryTreeNode node) {
+    public static int checkHeight(BinaryTreeNode<Integer> node) {
 
         if(node == null) return -1;
 
