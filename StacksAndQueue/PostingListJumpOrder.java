@@ -4,20 +4,21 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class PostingListJumpOrder {
-    
+
     public static void setJumpOrder(PostListNode n) {
         Deque<PostListNode> stack = new ArrayDeque<>();
 
         stack.push(n);
 
-        while(!stack.isEmpty()) {
+        while (!stack.isEmpty()) {
             PostListNode curr = stack.removeFirst();
 
-            if(curr != null && curr.count == -1 ) {
+            if (curr != null && curr.count == -1) {
+                int count = 0;
                 curr.count = count++;
 
-                stack.pushFirst(curr.next);
-                stack.pushFirst(curr.jump);
+                stack.addFirst((PostListNode) curr.next);
+                stack.addFirst((PostListNode) curr.jump);
             }
         }
     }
