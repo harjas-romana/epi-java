@@ -41,6 +41,11 @@ public class OverlappingNoCycleList {
         return P1;
 
     }
+
+    public static ListNode<Integer> overlappingNoCycleLists(ListNode<Integer> l1, ListNode<Integer> l2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'overlappingNoCycleLists'");
+    }
 }
 
 // Time complexity is O(N)
