@@ -1,8 +1,5 @@
 package LinkedList;
 
-import LinkedList.DetectCycleTwo;
-import LinkedList.OverlappingNoCycleList;
-
 public class OverlappingListMayHaveCycle {
 
     public static ListNode<Integer> overlappingLists(ListNode<Integer> L1, ListNode<Integer> L2) {
@@ -13,11 +10,6 @@ public class OverlappingListMayHaveCycle {
         if (root1 == null && root2 == null) {
             return OverlappingNoCycleList.overlappingNoCycleLists(L1, L2);
         }
-
-        if ((root1 == null && root2 != null) && (root1 != null && root2 != null)) {
-            return null;
-        }
-
         ListNode<Integer> temp = root1;
         do {
             temp = temp.next;
