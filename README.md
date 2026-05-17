@@ -13,86 +13,113 @@ A comprehensive collection of Java solutions to the problems presented in the bo
 ## 📁 Project Structure
 
 ```
-epi-java/
-├── Arrays/
-│   ├── ApplyPermutation.java
-│   ├── ArbitraryPrecisionAdd.java
-│   ├── ArbitraryPrecisionMultiply.java
-│   ├── BuyAndSellStockTwo.java
-│   ├── CanReachEnd.java
-│   ├── ComputeRandomPermutation.java
-│   ├── DeleteDuplicates.java
-│   ├── DeleteDuplicatesTwo.java
-│   ├── DutchNationalFlag.java
-│   ├── EnumerateAllPrimes.java
-│   ├── NextPermuationSmallest.java
-│   ├── NonUniformRandomNumber.java
-│   ├── OfflineRandomSampling.java
-│   ├── OnlineRandomSampling.java
-│   ├── PascalTriangle.java
-│   ├── RandomSubsets.java
-│   ├── RotateA2DArray.java
-│   ├── SpiralMatrix.java
-│   └── ValidSudoku.java
-├── BinaryTrees/
-│   └── BinaryTreeBootCamp.java
-├── BitManipulation/
-│   ├── ClosestSameBitCount.java
-│   ├── CountBits.java
-│   ├── ParityChecker.java
-│   ├── ReverseBits.java
-│   └── SwappingBits.java
-├── LinkedList/
-│   ├── AddTwoNumbersInLinkedList.java
-│   ├── CyclicallyRightShift.java
-│   ├── DeleteANode.java
-│   ├── DetectCycle.java
-│   ├── DetectCycleTwo.java
-│   ├── EvenOddMerge.java
-│   ├── LinkedListPivoting.java
-│   ├── ListNode.java
-│   ├── MergeTwoSortedList.java
-│   ├── OverlappingListMayHaveCycle.java
-│   ├── OverlappingNoCycleList.java
-│   ├── PalindromeLinkedList.java
-│   ├── RemoveDuplicatesFromSortedListNode.java
-│   ├── ReverseSubList.java
-│   └── removeKthLastNode.java
-├── StacksAndQueue/
-│   ├── BinaryTreeDepthOrder.java
-│   ├── BinaryTreeNode.java
-│   ├── BuildingWithSunsetView.java
-│   ├── CircularQueue.java
-│   ├── EvaluateRPN.java
-│   ├── MaxStack.java
-│   ├── PostingListJumpOrder.java
-│   ├── QueueUsingStack.java
-│   ├── QueueWithMaxAPI.java
-│   ├── RPNExpression.java
-│   ├── StackBootcamp.java
-│   ├── StackWithMax.java
-│   ├── ValidPathDirectory.java
-│   └── WellFormedString.java
-├── Strings/
-│   ├── BaseConversion.java
-│   ├── ComputeAllMnemonicsForAPhoneNumber.java
-│   ├── FirstOccuranceOfSubstring.java
-│   ├── GetValidIPAddresses.java
-│   ├── IntToString.java
-│   ├── LookAndSay.java
-│   ├── RandomStringProblem.java
-│   ├── ReplaceAndRemove.java
-│   ├── ReverseWords.java
-│   ├── RomanToInteger.java
-│   ├── RunLenghEncoding.java
-│   ├── SpreadSheetColumnEncoding.java
-│   ├── StringToInt.java
-│   └── ValidPlaindrome.java
-├── lib/
-│   ├── hamcrest-core-1.3.jar
-│   └── junit-4.13.2.jar
-├── PRACTICE_LOG.md
-└── README.md
+epi-java
+├─ Arrays
+│  ├─ ApplyPermutation.java
+│  ├─ ArbitraryPrecisionAdd.java
+│  ├─ ArbitraryPrecisionMultiply.java
+│  ├─ BuyAndSellStockTwo.java
+│  ├─ CanReachEnd.java
+│  ├─ ComputeRandomPermutation.java
+│  ├─ DeleteDuplicates.java
+│  ├─ DeleteDuplicatesTwo.java
+│  ├─ DutchNationalFlag.java
+│  ├─ EnumerateAllPrimes.java
+│  ├─ NextPermuationSmallest.java
+│  ├─ NonUniformRandomNumber.java
+│  ├─ OfflineRandomSampling.java
+│  ├─ OnlineRandomSampling.java
+│  ├─ PascalTriangle.java
+│  ├─ RandomSubsets.java
+│  ├─ RotateA2DArray.java
+│  ├─ SpiralMatrix.java
+│  └─ ValidSudoku.java
+├─ BinaryTrees
+│  ├─ BSTInorderTraversal.java
+│  ├─ BinaryTreeBootCamp.java
+│  ├─ HasPathSum.java
+│  ├─ InorderSuccessor.java
+│  ├─ LCA.java
+│  ├─ LCAWithParentPointers.java
+│  ├─ LeafCollector.java
+│  ├─ LockedTreeState.java
+│  ├─ O1SpaceInOrder.java
+│  ├─ PreOrderTraversalBST.java
+│  ├─ RootToLeafSum.java
+│  ├─ SymmetricTree.java
+│  ├─ TreeExterior.java
+│  ├─ TreeReconstruction.java
+│  └─ isBalanced.java
+├─ BitManipulation
+│  ├─ ClosestSameBitCount.java
+│  ├─ CountBits.java
+│  ├─ ParityChecker.java
+│  ├─ ReverseBits.java
+│  └─ SwappingBits.java
+├─ Heaps
+│  ├─ ClosestStars.java
+│  ├─ KLargestInBinaryTree.java
+│  ├─ MediumOfOnlineData.java
+│  ├─ MergeSortedArrays.java
+│  ├─ SortAlmostSorted.java
+│  ├─ SortZigZag.java
+│  ├─ StackUsingAPIHeap.java
+│  └─ TopKLongestString.java
+├─ LinkedList
+│  ├─ AddTwoNumbersInLinkedList.java
+│  ├─ CyclicallyRightShift.java
+│  ├─ DeleteANode.java
+│  ├─ DetectCycle.java
+│  ├─ DetectCycleTwo.java
+│  ├─ EvenOddMerge.java
+│  ├─ LinkedListPivoting.java
+│  ├─ ListNode.java
+│  ├─ MergeTwoSortedList.java
+│  ├─ OverlappingListMayHaveCycle.java
+│  ├─ OverlappingNoCycleList.java
+│  ├─ PalindromeLinkedList.java
+│  ├─ RemoveDuplicatesFromSortedListNode.java
+│  ├─ ReverseSubList.java
+│  └─ removeKthLastNode.java
+├─ PRACTICE_LOG.md
+├─ README.md
+├─ StacksAndQueue
+│  ├─ BinaryTreeDepthOrder.java
+│  ├─ BinaryTreeNode.java
+│  ├─ BuildingWithSunsetView.java
+│  ├─ CircularQueue.java
+│  ├─ EvaluateRPN.java
+│  ├─ MaxStack.java
+│  ├─ PostListNode.java
+│  ├─ PostingListJumpOrder.java
+│  ├─ QueueUsingStack.java
+│  ├─ QueueWithMaxAPI.java
+│  ├─ RPNExpression.java
+│  ├─ StackBootcamp.java
+│  ├─ StackWithMax.java
+│  ├─ ValidPathDirectory.java
+│  └─ WellFormedString.java
+├─ Strings
+│  ├─ BaseConversion.java
+│  ├─ ComputeAllMnemonicsForAPhoneNumber.java
+│  ├─ FirstOccuranceOfSubstring.java
+│  ├─ GetValidIPAddresses.java
+│  ├─ IntToString.java
+│  ├─ LookAndSay.java
+│  ├─ RandomStringProblem.java
+│  ├─ ReplaceAndRemove.java
+│  ├─ ReverseWords.java
+│  ├─ RomanToInteger.java
+│  ├─ RunLenghEncoding.java
+│  ├─ SpreadSheetColumnEncoding.java
+│  ├─ StringToInt.java
+│  └─ ValidPlaindrome.java
+├─ leetcode
+│  └─ 105.construct-binary-tree-from-preorder-and-inorder-traversal.java
+└─ lib
+   ├─ hamcrest-core-1.3.jar
+   └─ junit-4.13.2.jar
+
 ```
 
 ## 🚀 Getting Started
