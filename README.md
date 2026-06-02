@@ -14,6 +14,7 @@ A comprehensive collection of Java solutions to the problems presented in the bo
 
 ```
 epi-java
+├─ .heatmap_sync
 ├─ Arrays
 │  ├─ ApplyPermutation.java
 │  ├─ ArbitraryPrecisionAdd.java
@@ -81,8 +82,37 @@ epi-java
 │  ├─ RemoveDuplicatesFromSortedListNode.java
 │  ├─ ReverseSubList.java
 │  └─ removeKthLastNode.java
+├─ OOPAndSystemDesign
+│  ├─ AbstractionExample.java
+│  ├─ AggregationExample.java
+│  ├─ Animal.java
+│  ├─ AssociationExample.java
+│  ├─ BankAccount.java
+│  ├─ BuilderPattern.java
+│  ├─ Cat.java
+│  ├─ Circle.java
+│  ├─ CompositePattern.java
+│  ├─ DecoratorPattern.java
+│  ├─ Dog.java
+│  ├─ ECommerceSystemDesign.java
+│  ├─ FacadePattern.java
+│  ├─ FactoryPattern.java
+│  ├─ MVCPatternExample.java
+│  ├─ MethodOverloadingExample.java
+│  ├─ MethodOverridingExample.java
+│  ├─ ObserverPattern.java
+│  ├─ Rectangle.java
+│  ├─ Shape.java
+│  ├─ SingletonPattern.java
+│  ├─ StrategyPattern.java
+│  ├─ TemplateMethodPattern.java
+│  └─ Triangle.java
 ├─ PRACTICE_LOG.md
 ├─ README.md
+├─ Searching
+│  ├─ CyclicallySortedArray.java
+│  ├─ EntryEqualToIndex.java
+│  └─ FirstOccuranceOfK.java
 ├─ StacksAndQueue
 │  ├─ BinaryTreeDepthOrder.java
 │  ├─ BinaryTreeNode.java
@@ -121,7 +151,6 @@ epi-java
    └─ junit-4.13.2.jar
 
 ```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
